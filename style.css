@@ -1,0 +1,63 @@
+/* mais sobre view port */
+/* https://www.alura.com.br/artigos/guia-de-unidades-no-css */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+
+/* guia flex-box */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+body{
+    height:100vh;
+    background-color: black;
+    color:white;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 10%;
+}
+.container_conteudo{
+    width: 650px;
+}
+.container_conteudo_titulo{
+    font-size: 30px;
+    font-family: "Krona One", sans-serif;
+    margin-bottom: 50px;
+}
+.container_conteudo_texto{
+    margin-top: 50px;
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+}
+
+.button a{
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+    border-radius: 5px;
+    background-color: aqua;
+    width: 280px;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 24px;
+}
+
+.button{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+}
